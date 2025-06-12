@@ -19,10 +19,12 @@
         height: 1px;
         background: var(--border-primary);
         margin-block: 4rem;
+        margin-bottom: 2.4rem;
     }
 
     .amantes-historia{
-        margin-bottom: 6.4rem;
+        margin-bottom: 4.8rem;
+        margin-bottom: 2.4rem;
     }
 
     .destino_1,
@@ -54,7 +56,30 @@
         }
     }
 
+    .destino_2 {
+        margin-bottom: 4.8rem;
+
+        li{
+            color: var(--accent-blue);
+        }
+
+        ul{
+            li:nth-of-type(1) {
+                color: var(--accent-purple);
+            }
+
+            li:nth-of-type(2) {
+                color: var(--accent-pink);
+            }
+
+            li:nth-of-type(3) {
+                color: var(--accent-orange);
+            }
+        }        
+    }
+
     .destino_3{
+        margin-bottom: 4.8rem;
         ul{
             li:nth-of-type(1) {
                 color: var(--accent-purple);
@@ -71,6 +96,20 @@
     }
 
     footer {
-        text-align: center;
+        p{
+            text-align: center;
+        }
+        img{
+            border-radius: 2.8rem;
+            margin-bottom: 1.4rem;
+            height: auto;
+            
+        h3{
+            font-size: 2.8rem;
+            margin-bottom: 0.4rem;
+            
+        }
+        
+        }
     }
 }
